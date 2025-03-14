@@ -110,4 +110,10 @@ const gallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, work, gallery };
+const blog = {
+  label: "Blog",
+  title: "My Blog",
+  description: `Photography insights and stories by ${person.name}`,
+};
+
+export { person, social, newsletter, home, about, work, gallery, blog };
